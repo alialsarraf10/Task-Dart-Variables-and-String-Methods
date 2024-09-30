@@ -17,7 +17,7 @@ void main(){
   result = number + number;
   print("$number + $number = $result");
 
-  print("My name is $firstName and my last name length is ${lastName.length}");
+  print("My name is ${firstName.toUpperCase()} and my last name length is ${lastName.length}");
 
   print("Does My Last Name Starts With The Letter d? ${lastName.contains("d")}");
 
