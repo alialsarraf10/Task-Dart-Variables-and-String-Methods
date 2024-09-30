@@ -19,7 +19,7 @@ void main(){
 
   print("My name is ${fullName.split(' ')[0].toUpperCase()} and my last name length is ${fullName.split(' ')[1].length}");
 
-  print("Does My Last Name Starts With The Letter d? ${lastName.startsWith("d")}");
+  print("Does My Last Name Starts With The Letter d? ${fullName.split(' ')[1].startsWith("d")}");
 
 
 
